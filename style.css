@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 2.0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+
+    background-image: url('Images/Fondo\ alt.webp'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
+
+
+}
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+h1 {
+    color: #ffffff;
+}
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+.indice {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.indice h2 {
+    color: #ffffff;
+    border-bottom: none;
+}
+.tema {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.966);
+}
+.tema img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 100;    
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
